@@ -13,6 +13,8 @@
 		750705B6236E1C5B00DE2E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750705B4236E1C5B00DE2E26 /* Main.storyboard */; };
 		750705B8236E1C5D00DE2E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750705B7236E1C5D00DE2E26 /* Assets.xcassets */; };
 		750705BB236E1C5D00DE2E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750705B9236E1C5D00DE2E26 /* LaunchScreen.storyboard */; };
+		750705C5236E21DA00DE2E26 /* ForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750705C4236E21DA00DE2E26 /* ForecastTableViewController.swift */; };
+		750705C7236E221600DE2E26 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750705C6236E221600DE2E26 /* DailyForecastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		750705B7236E1C5D00DE2E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750705BA236E1C5D00DE2E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750705BC236E1C5D00DE2E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750705C4236E21DA00DE2E26 /* ForecastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewController.swift; sourceTree = "<group>"; };
+		750705C6236E221600DE2E26 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		750705AD236E1C5B00DE2E26 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				750705C3236E21BD00DE2E26 /* Views */,
+				750705C2236E21B300DE2E26 /* ViewController */,
 				750705AE236E1C5B00DE2E26 /* AppDelegate.swift */,
 				750705B0236E1C5B00DE2E26 /* SceneDelegate.swift */,
 				750705B2236E1C5B00DE2E26 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				750705BC236E1C5D00DE2E26 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		750705C2236E21B300DE2E26 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				750705C4236E21DA00DE2E26 /* ForecastTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		750705C3236E21BD00DE2E26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				750705C6236E221600DE2E26 /* DailyForecastTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				750705B3236E1C5B00DE2E26 /* ViewController.swift in Sources */,
+				750705C7236E221600DE2E26 /* DailyForecastTableViewCell.swift in Sources */,
 				750705AF236E1C5B00DE2E26 /* AppDelegate.swift in Sources */,
+				750705C5236E21DA00DE2E26 /* ForecastTableViewController.swift in Sources */,
 				750705B1236E1C5B00DE2E26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
